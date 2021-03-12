@@ -1,0 +1,7 @@
+version: "3"
+
+services: 
+  mathapi:    
+    build: .
+    ports: 
+      - "8888:8000"
